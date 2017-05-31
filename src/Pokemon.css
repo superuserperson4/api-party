@@ -6,6 +6,8 @@
 .pokemon-logo {
     width: 100%;
     max-width: 450px;
+    animation: pokemon-logo-spin infinite 10s linear;
+    margin-top: 125px;
 }
 
 .pokemon input {
@@ -19,7 +21,7 @@
     border-radius: 5px;
     line-height: 20px;
     border: 1px solid #d1d5da;
-    margin-top: 25px;
+    margin-top: 150px;
 }
 
 .pokemon button {
@@ -33,4 +35,9 @@
     margin-bottom: 50px;
     background-color: #0184be;
     font-family: "Gentium Book Basic", serif;
+}
+
+@keyframes pokemon-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
