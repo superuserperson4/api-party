@@ -15,7 +15,11 @@ class Pokemon extends Component {
 
     handleSubmit = (ev) => {
         ev.preventDefault()
-        this.props.history.push(`/pokemon/${this.state.number}`)
+        if (this.state.number > 0 && this.state.number <= 721) {
+            this.props.history.push(`/pokemon/${this.state.number}`)
+        } else {
+            window.alert("Please enter a valid pokemon number")
+        }
     }
 
     render() {
