@@ -3,13 +3,14 @@
 }
 
 .pokemon-data h1 {
-    color: #999;
+    color: #D43710;
 }
 
 .pokemon-data h2 {
-    color: #999;
+    color: #D43710;
+    font: 40px/60px 'Alfa Slab One', cursive, sans-serif;
 }
 
 .pokemon-data h3 {
-    color: #999;
+    color: #D43710;
 }

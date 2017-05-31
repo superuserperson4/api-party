@@ -42,7 +42,7 @@ class PokemonData extends Component {
         }
 
         if (types.length === 1) {
-            return <h3>Types: {types[0]}</h3>
+            return <h3>Type: {types[0]}</h3>
         } else {
             return <h3>Types: {types[1]} & {types[0]}</h3>
         }
